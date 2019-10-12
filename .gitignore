@@ -1,0 +1,10 @@
+/node_modules
+coverage
+*.log
+npm-debug.log
+.logs
+logs
+/run
+package-lock.json
+.DS_Store
+.tmp
