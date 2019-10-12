@@ -1,0 +1,260 @@
+{
+  "keys": "/sandbox/config/config.default.js",
+  "security": {
+    "xframe": {
+      "enable": "/sandbox/config/config.default.js",
+      "value": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/sandbox/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/sandbox/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/sandbox/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "type": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "useSession": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "headerName": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "queryName": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "value": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "value": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "policy": "/sandbox/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/sandbox/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/sandbox/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/sandbox/node_modules/egg-session/config/config.default.js",
+    "key": "/sandbox/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/sandbox/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/sandbox/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/sandbox/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/sandbox/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/sandbox/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/sandbox/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/sandbox/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/sandbox/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/sandbox/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/sandbox/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/sandbox/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/sandbox/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/sandbox/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/sandbox/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/sandbox/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/sandbox/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/sandbox/node_modules/egg-watcher/config/config.default.js",
+      "development": "/sandbox/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/sandbox/node_modules/egg-schedule/config/config.default.js",
+      "file": "/sandbox/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/sandbox/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "files": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/sandbox/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/sandbox/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/sandbox/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/sandbox/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/sandbox/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/sandbox/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/sandbox/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/sandbox/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/sandbox/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/sandbox/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/sandbox/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/sandbox/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/sandbox/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/sandbox/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/sandbox/node_modules/egg-static/config/config.default.js",
+    "dir": "/sandbox/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/sandbox/node_modules/egg-static/config/config.default.js",
+    "preload": "/sandbox/node_modules/egg-static/config/config.default.js",
+    "buffer": "/sandbox/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/sandbox/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/sandbox/node_modules/egg-view/config/config.default.js",
+    "cache": "/sandbox/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/sandbox/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/sandbox/node_modules/egg-view/config/config.default.js",
+    "mapping": "/sandbox/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/sandbox/node_modules/egg/config/config.default.js",
+  "name": "/sandbox/node_modules/egg/config/config.default.js",
+  "proxy": "/sandbox/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/sandbox/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/sandbox/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/sandbox/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/sandbox/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/sandbox/node_modules/egg/config/config.default.js",
+    "version": "/sandbox/node_modules/egg/config/config.default.js",
+    "description": "/sandbox/node_modules/egg/config/config.default.js",
+    "main": "/sandbox/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/sandbox/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/sandbox/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "nodemon": "/sandbox/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/sandbox/node_modules/egg/config/config.default.js",
+  "HOME": "/sandbox/node_modules/egg/config/config.default.js",
+  "rundir": "/sandbox/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/sandbox/node_modules/egg/config/config.default.js",
+    "notFound": "/sandbox/node_modules/egg/config/config.default.js",
+    "sitefile": "/sandbox/node_modules/egg/config/config.default.js",
+    "middlewares": "/sandbox/node_modules/egg/config/config.default.js",
+    "httpClient": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/sandbox/node_modules/egg/config/config.default.js",
+    "encoding": "/sandbox/node_modules/egg/config/config.default.js",
+    "formLimit": "/sandbox/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/sandbox/node_modules/egg/config/config.default.js",
+    "textLimit": "/sandbox/node_modules/egg/config/config.default.js",
+    "strict": "/sandbox/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/sandbox/node_modules/egg/config/config.default.js",
+      "depth": "/sandbox/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/sandbox/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/sandbox/node_modules/egg/config/config.default.js",
+    "encoding": "/sandbox/node_modules/egg/config/config.default.js",
+    "env": "/sandbox/node_modules/egg/config/config.default.js",
+    "level": "/sandbox/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/sandbox/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/sandbox/node_modules/egg/config/config.default.js",
+    "outputJSON": "/sandbox/node_modules/egg/config/config.default.js",
+    "buffer": "/sandbox/node_modules/egg/config/config.default.js",
+    "appLogName": "/sandbox/node_modules/egg/config/config.default.js",
+    "coreLogName": "/sandbox/node_modules/egg/config/config.default.js",
+    "agentLogName": "/sandbox/node_modules/egg/config/config.default.js",
+    "errorLogName": "/sandbox/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/sandbox/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/sandbox/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/sandbox/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/sandbox/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/sandbox/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/sandbox/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/sandbox/node_modules/egg/config/config.default.js",
+      "maxSockets": "/sandbox/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/sandbox/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/sandbox/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/sandbox/node_modules/egg/config/config.default.js",
+      "maxSockets": "/sandbox/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/sandbox/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/sandbox/node_modules/egg/config/config.default.js",
+    "logging": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/sandbox/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/sandbox/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/sandbox/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/sandbox/node_modules/egg/config/config.default.js",
+      "port": "/sandbox/node_modules/egg/config/config.default.js",
+      "hostname": "/sandbox/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/sandbox/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/sandbox/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/sandbox/node_modules/egg/config/config.default.js"
+}

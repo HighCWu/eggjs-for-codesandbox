@@ -1,0 +1,18 @@
+{
+  "name": "eggjs-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "// start": "egg-bin dev --port 8080",
+    "start": "nodemon bin/index.js localhost 8080"
+  },
+  "dependencies": {
+    "egg": "2.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "egg-bin": "4.14.0"
+  },
+  "keywords": []
+}
